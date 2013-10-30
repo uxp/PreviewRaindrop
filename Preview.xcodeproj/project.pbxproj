@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9111FBE4182180D500C05692 /* Raindrop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9111FBE3182180D500C05692 /* Raindrop.plist */; };
+		9111FBE8182181D900C05692 /* SBPreviewRaindrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 9111FBE7182181D900C05692 /* SBPreviewRaindrop.m */; };
+		9111FBEC182185E900C05692 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9111FBEB182185E900C05692 /* ScriptingBridge.framework */; };
 		91FE2ED418217FFC00D5954B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FE2ED318217FFC00D5954B /* Cocoa.framework */; };
 		91FE2EDE18217FFC00D5954B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91FE2EDC18217FFC00D5954B /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		91FE2ED018217FFC00D5954B /* Preview.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Preview.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9111FBE3182180D500C05692 /* Raindrop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Raindrop.plist; sourceTree = "<group>"; };
+		9111FBE6182181D900C05692 /* SBPreviewRaindrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBPreviewRaindrop.h; sourceTree = "<group>"; };
+		9111FBE7182181D900C05692 /* SBPreviewRaindrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBPreviewRaindrop.m; sourceTree = "<group>"; };
+		9111FBE9182181F200C05692 /* CLRaindropProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLRaindropProtocol.h; sourceTree = "<group>"; };
+		9111FBEA1821821600C05692 /* CLRaindropHelperProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLRaindropHelperProtocol.h; sourceTree = "<group>"; };
+		9111FBEB182185E900C05692 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		9111FBEE182187C300C05692 /* Preview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Preview.h; sourceTree = "<group>"; };
+		91FE2ED018217FFC00D5954B /* Preview.raindrop */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Preview.raindrop; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FE2ED318217FFC00D5954B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		91FE2ED618217FFC00D5954B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		91FE2ED718217FFC00D5954B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -35,6 +45,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9111FBE51821812800C05692 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9111FBEE182187C300C05692 /* Preview.h */,
+				9111FBEA1821821600C05692 /* CLRaindropHelperProtocol.h */,
+				9111FBE9182181F200C05692 /* CLRaindropProtocol.h */,
+				9111FBE6182181D900C05692 /* SBPreviewRaindrop.h */,
+				9111FBE7182181D900C05692 /* SBPreviewRaindrop.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		91FE2EC718217FFB00D5954B = {
 			isa = PBXGroup;
 			children = (
