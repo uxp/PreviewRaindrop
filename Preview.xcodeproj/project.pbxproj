@@ -27,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9111FBEC182185E900C05692 /* ScriptingBridge.framework in Frameworks */,
 				91FE2ED418217FFC00D5954B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,7 +47,7 @@
 		91FE2ED118217FFC00D5954B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91FE2ED018217FFC00D5954B /* Preview.bundle */,
+				91FE2ED018217FFC00D5954B /* Preview.raindrop */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +55,7 @@
 		91FE2ED218217FFC00D5954B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9111FBEB182185E900C05692 /* ScriptingBridge.framework */,
 				91FE2ED318217FFC00D5954B /* Cocoa.framework */,
 				91FE2ED518217FFC00D5954B /* Other Frameworks */,
 			);
@@ -73,6 +75,7 @@
 		91FE2ED918217FFC00D5954B /* Preview */ = {
 			isa = PBXGroup;
 			children = (
+				9111FBE51821812800C05692 /* Classes */,
 				91FE2EDA18217FFC00D5954B /* Supporting Files */,
 			);
 			path = Preview;
@@ -81,6 +84,7 @@
 		91FE2EDA18217FFC00D5954B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9111FBE3182180D500C05692 /* Raindrop.plist */,
 				91FE2EDB18217FFC00D5954B /* Preview-Info.plist */,
 				91FE2EDC18217FFC00D5954B /* InfoPlist.strings */,
 				91FE2EDF18217FFC00D5954B /* Preview-Prefix.pch */,
@@ -105,7 +109,7 @@
 			);
 			name = Preview;
 			productName = Preview;
-			productReference = 91FE2ED018217FFC00D5954B /* Preview.bundle */;
+			productReference = 91FE2ED018217FFC00D5954B /* Preview.raindrop */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -140,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91FE2EDE18217FFC00D5954B /* InfoPlist.strings in Resources */,
+				9111FBE4182180D500C05692 /* Raindrop.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9111FBE8182181D900C05692 /* SBPreviewRaindrop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +204,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -230,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -244,7 +250,8 @@
 				INFOPLIST_FILE = "Preview/Preview-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = raindrop;
 			};
 			name = Debug;
 		};
@@ -257,7 +264,8 @@
 				INFOPLIST_FILE = "Preview/Preview-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = raindrop;
 			};
 			name = Release;
 		};
@@ -280,6 +288,7 @@
 				91FE2EE418217FFC00D5954B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

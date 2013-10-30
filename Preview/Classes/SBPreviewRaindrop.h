@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CLRaindropProtocol.h"
 
-@interface SBPreviewRaindrop : NSObject
+@interface SBPreviewRaindrop : NSObject <CLRaindropProtocol>
 
 @end

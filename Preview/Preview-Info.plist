@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.selectivebytes.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.selectivebytes.Raindrop.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -25,6 +25,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2013 Selective Bytes. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
-	<string></string>
+	<string>SBPreviewRaindrop</string>
 </dict>
 </plist>
