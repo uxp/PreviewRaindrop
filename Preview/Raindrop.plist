@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLRaindropCreator</key>
+	<string>Selective Bytes LLC.</string>
+	<key>CLRaindropDescription</key>
+	<string>Uploads the currently shown Preview.app image.</string>
+	<key>CLRaindropName</key>
+	<string>Preview</string>
+	<key>CLRaindropTargetBundleID</key>
+	<string>com.apple.Preview</string>
+	<key>CLRaindropURL</key>
+	<string>https://www.hplogsdon/raindrop/preview</string>
+</dict>
+</plist>
